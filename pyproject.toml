@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poketools"
+version = "0.1.0"
+description = "Pokedex API basics"
+authors = ["RainbowSaprks"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.2.2"
+flask-sqlalchemy = "^3.0.2"
+pytest = "^7.2.1"
+pytest-flask = "^1.2.0"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
