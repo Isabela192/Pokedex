@@ -1,5 +1,5 @@
 ### Pokedex
 
-Building a pokedex with dash 
+![Coverage badge](./coverage.svg)
 
-Data for this project was taken from Kaggle (https://www.kaggle.com/rounakbanik/pokemon)
+Creating a pokemon API with Flask

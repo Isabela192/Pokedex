@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "poketools"
+version = "0.1.0"
+description = "Pokedex API basics"
+authors = ["RainbowSaprks"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.2.2"
+flask-sqlalchemy = "^3.0.2"
+pytest = "^7.2.1"
+pytest-flask = "^1.2.0"
+pandas = "^1.5.3"
+pre-commit = "^3.0.2"
+black = "^22.12.0"
+marshmallow-sqlalchemy = "^0.28.1"
+pylint = "^2.15.10"
+poetry-dotenv-plugin = "^0.1.0"
+flask-cors = "^3.0.10"
+coverage = "^7.1.0"
+coverage-badge = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
