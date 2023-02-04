@@ -1,1 +1,8 @@
-/query_debbuger.py
+.env
+
+__pycache__/extensions.cpython-310.pyc
+tests/__pycache__/__init__.cpython-310.pyc
+.coverage
+__pycache__/app.cpython-310.pyc
+tests/__pycache__/conftest.cpython-310-pytest-7.2.1.pyc
+tests/unit/__pycache__/test_root.cpython-310-pytest-7.2.1.pyc
