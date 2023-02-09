@@ -2,7 +2,8 @@ import os
 
 from flask import Flask
 from flask_cors import CORS
-from extensions import db_connect
+from rest.routes.poke_routes import pokemon_bp
+from app.extensions import db_connect
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -29,6 +30,9 @@ def create_app() -> Flask:
 
 def register_extension(app):
     db_connect.init_app(app)
+
+def regiter_blueprints(app):
+    app.regiter_blueprint(pokemon_bp)
 
 
 if __name__ == '__main__':

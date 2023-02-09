@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from extensions import db_connect
+from app.extensions import db_connect
 
 
 @dataclass
